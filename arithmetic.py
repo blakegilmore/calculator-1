@@ -1,5 +1,7 @@
 def add(num1, num2):
     result=num1+num2
+    if num1==num2:
+        print "hey they're equal cool!"
     return result
 
 def subtract(num1, num2):
